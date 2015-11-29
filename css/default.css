@@ -1,8 +1,28 @@
 
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+h2{
+  color:#BB6E10;
+}
+i {
+  color:#666;
+}
 .navbar-contact{
 	display: block;
 	height: 50px;
     padding: 15px 15px;
     font-size: 14px;
     line-height: 20px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px)  {
+	  .mobile-block{
+		  display: block;
+      line-height: 22px;
+	  }
+
 }

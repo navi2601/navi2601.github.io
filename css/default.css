@@ -17,12 +17,12 @@ i {
     line-height: 20px;
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 736px)  {
-	  .mobile-block{
-		  display: block;
-      line-height: 22px;
-	  }
-
+ul.unstyled-list{
+  list-style:none;
+  margin:0;
+  padding: 0;
+}
+ul.unstyled-list li{
+  margin:0;
+  padding-top:5px;
 }
